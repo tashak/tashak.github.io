@@ -1,0 +1,151 @@
+
+body {
+	margin: 0;
+}
+
+.major h2 {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+/* Navigation */
+.nameheader {
+	padding-top: 3em;
+}
+
+.navbar {
+	padding: 0.5em 0 0 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 3em;
+	z-index: 9999;
+	width: calc(100% - 30%);
+	margin-left: 35%;
+	color: rgb(217, 221, 48);
+	background: RGBA(11, 19, 30, 1);
+	box-shadow: 0px 10px 1em 0.2em RGBA(11, 19, 30, 1);
+}
+
+/* Medium */
+@media screen and (max-width: 980px) {
+	.navbar {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+nav {
+	padding-top: 0.5em;
+	font-size: 1em;
+}
+
+.nav-item {
+	margin: 1em 1em 1em 1em;
+	padding-right: 1em;
+}
+
+.nav-item:not(:last-child) {
+    padding-top: 1em;
+	border-right: 1px solid rgba(217, 221, 48, 0.2);
+}
+
+.nav-item a {
+	color: #D9DD30;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+.scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* Books */
+
+	.quotes p {
+		color: #D4DA3D;
+		margin: 0 0 1em 0;
+		line-height: 1.75em;
+	}
+
+	.quotes a {
+		color: #D4DA3D;
+		text-decoration: none;
+		border: none;
+	}
+
+	.quotes {
+		line-height: 1.2em;
+		font-family: 'Verlag-Light';
+		text-align: center;
+		max-width: 100%;
+	}
+
+	.excerpt {
+		padding: 1em;
+		text-align: justify;
+		margin: 0 1em 2em 0;
+	}
+
+	.resellers.row {
+		background-color: #A0A1A4;
+		border-radius: 0.6em;
+		border-right: 10%;
+		padding: 5% 0% 5% 0%;
+		margin: 0px;
+	}
+
+	.image.fit.reseller {
+		border-radius: 0;
+		vertical-align: middle;
+		margin: 5% 10% 5% 0;
+	}
+
+	.reseller-container {
+		margin: 1em 0 1em 0;
+	}
+
+
+/* Blog Entries */
+
+	.blog a {
+		color: #D4DA3D;
+		text-decoration: none;
+		border: none;
+	}
+
+	.blog {
+		padding: 0;
+		line-height: 1.2em;
+		font-family: 'Verlag-Light';
+		font-size: 1.0em;
+		text-align: left;
+		max-width: 100%;
+	}
+
+
+	.row.blog {
+		padding: 0 0 0 0;
+	}
+
+	.row.blogentry {
+		padding: 1em 0 1em 0;
+	}
+
+
+/* About */
+
+	.about {
+		text-align: justify;
+		
+	}
+	.about a {
+		border: none;
+	}
+
+

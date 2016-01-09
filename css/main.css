@@ -50,10 +50,6 @@
 		vertical-align: baseline;
 	}
 
-	skel.layout({
-    	conditionals: true
-	});	
-
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -95,122 +91,6 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
-/* Navigation */
-nav.container {
-	position: absolute;
-	z-index: 200;
-	top: 0;
-	margin-bottom: 3em; 
-	margin-left: 0em;
-	background-color: #39525B;
-}
-
-nav.primary ul,
-nav.primary ul li {
-	padding-left: 0px;
-	margin: 0px;
-}
-
-nav.primary ul li {
-    display: inline;
-    float: left;
-    position: relative;
-}
-
-nav.primary ul, li a {
-	display: inline-block;
-	line-height: 1.75em;
-	padding-right: 1em;
-	padding-left: 0;
-	color: #D4DA3D;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-
-
-/* Books */
-
-	.quotes p {
-		color: #D4DA3D;
-		margin: 0 0 1em 0;
-		line-height: 1.75em;
-	}
-
-	.quotes a {
-		color: #D4DA3D;
-		text-decoration: none;
-		border: none;
-	}
-
-	.quotes {
-		line-height: 1.2em;
-		font-family: 'Verlag-Light';
-		text-align: center;
-		max-width: 100%;
-	}
-
-	.excerpt {
-		padding: 1em;
-		text-align: justify;
-		margin: 0 1em 2em 0;
-	}
-
-	.resellers.row {
-		background-color: #A0A1A4;
-		border-radius: 0.6em;
-		border-right: 10%;
-		padding: 5% 0% 5% 0%;
-		margin: 0px;
-	}
-
-	.image.fit.reseller {
-		border-radius: 0;
-		vertical-align: middle;
-		margin: 5% 10% 5% 0;
-	}
-
-	.reseller-container {
-		margin: 1em 0 1em 0;
-	}
-
-
-/* Blog Entries */
-
-	.blog a {
-		color: #D4DA3D;
-		text-decoration: none;
-		border: none;
-	}
-
-	.blog {
-		padding: 0;
-		line-height: 1.2em;
-		font-family: 'Verlag-Light';
-		font-size: 1.0em;
-		text-align: left;
-		max-width: 100%;
-	}
-
-
-	.row.blog {
-		padding: 0 0 0 0;
-	}
-
-
-
-
-/* About */
-
-	.about {
-		text-align: justify;
-		
-	}
-	.about a {
-		border: none;
-	}
-
 
 
 /* Containers */
@@ -1907,9 +1787,6 @@ body, input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	header.major h2 {
-		font-size: 2em;
-	}
 
 /* Form */
 
@@ -3112,6 +2989,8 @@ body, input, select, textarea {
 				width: calc(100% - 30%);
 			}
 
+
+
 	}
 
 /* Medium */
@@ -3236,7 +3115,7 @@ body, input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 2.25em 1.5em;
+				padding-bottom: 3em;
 			}
 
 				#header h1 {
@@ -3271,7 +3150,10 @@ body, input, select, textarea {
 					margin-top: -1em;
 				}
 
+
 	}
+
+
 
 /* XSmall */
 
@@ -3330,5 +3212,8 @@ body, input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+
+
+
 
 	}
