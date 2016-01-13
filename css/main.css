@@ -45,7 +45,7 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 1.02em;
+		font-size: 1em;
 		font-family: 'Verlag-Book', Helvetica, sans-serif;
 		vertical-align: baseline;
 	}
@@ -2626,7 +2626,7 @@ body, input, select, textarea {
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 1em 0;
-			padding: 0 2em 0 0;
+			padding: 0 0 0 0;
 		}
 
 			#footer .copyright li {
