@@ -1,6 +1,25 @@
 (function($) {
 
 	/*
+	 * jQuery code in conjunction with slick to provide
+	 * book cover image rotation
+	 */
+	$(document).ready(function(){
+		$('#carousel').slick({
+		  autoplay: true,
+		  autoplaySpeed: 5000,
+		  arrows: false,
+		  dots: false,
+		  infinite: true,
+		  speed: 1000,
+		  fade: true,
+		  pauseOnHover: false,
+		  cssEase: 'linear',
+		});
+	});
+
+
+	/*
 	 * jQuery for page scrolling feature - requires jQuery Easing plugin
 	 */
     $('a.page-scroll').bind('click', function(event) {
@@ -10,7 +29,6 @@
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-
 
 	/**
 	 * Generate an indented list of links from a nav. Meant for use with panel().

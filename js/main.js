@@ -4,6 +4,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+$(document).ready(function(){
+	$('#carousel').slick({
+	  autoplay: true,
+	  autoplaySpeed: 5000,
+	  arrows: false,
+	  dots: false,
+	  infinite: true,
+	  speed: 1000,
+	  fade: true,
+	  pauseOnHover: false,
+	  cssEase: 'linear',
+	});
+});
+
 (function($) {
 
 	var settings = {

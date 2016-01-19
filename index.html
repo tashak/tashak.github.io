@@ -12,6 +12,7 @@
     	<meta name="generator" content="Hugo 0.14" />
 		
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>		
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/site.css">
 		
@@ -59,8 +60,12 @@
 	
 	<div class="row">
 	    
-		<div class="cover 6u 12u$(small) 12u$(xsmall)">
-            <img class="image cover" src="images/fulls/twhic-cover.jpg" alt="" />
+		<div id="carousel" class="cover 6u 12u$(small) 12u$(xsmall)">
+			
+            <div><img style="width: 100%" class="image cover" src="images/fulls/twhic-cover.jpg" alt="" />Paperback - Released on the 4th of February 2016</div>
+			
+            <div><img style="width: 100%" class="image cover" src="images/fulls/twhic-hardback-cover.jpg" alt="" />Hardback Cover</div>
+			
 		</div>
  		<div class="quotes 6u 12u$(small) 12u$(xsmall)">
  		  
@@ -240,6 +245,8 @@
 
 <script src="js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
 
 
 <!-- Google Analytics -->
@@ -250,4 +257,8 @@
   s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
 
+	<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
