@@ -6,15 +6,16 @@
 	 */
 	$(document).ready(function(){
 		$('#carousel').slick({
-		  autoplay: true,
-		  autoplaySpeed: 5000,
-		  arrows: false,
-		  dots: false,
-		  infinite: true,
-		  speed: 1000,
-		  fade: true,
-		  pauseOnHover: false,
-		  cssEase: 'linear',
+			autoplay: true,
+			autoplaySpeed: 5000,
+			arrows: false,
+			dots: false,
+			infinite: true,
+			speed: 1000,
+			fade: true,
+			pauseOnHover: false,
+			cssEase: 'linear',
+			lazyLoad: 'ondemand'
 		});
 	});
 
