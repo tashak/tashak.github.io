@@ -147,10 +147,17 @@ nav {
 
 	.about {
 		text-align: justify;
-		
 	}
 	.about a {
 		border: none;
 	}
+
+
+/* Excerpt Link */
+
+.excerpt-link h2 {
+	font-size: 2em;
+	font-style: italic;
+}
 
 
