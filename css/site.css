@@ -1,3 +1,7 @@
+#books .nameheader {
+	margin-top: 1.5em !important;
+}
+
 
 body {
 	margin: 0;
@@ -156,8 +160,13 @@ nav {
 /* Excerpt Link */
 
 .excerpt-link h2 {
+	padding-top: 0em !important;
 	font-size: 2em;
 	font-style: italic;
+}
+
+.excerpt-link a {
+	color: #49bf9d !important;
 }
 
 
