@@ -13,10 +13,23 @@
 			infinite: true,
 			speed: 1000,
 			fade: true,
-			pauseOnHover: false,
+			pauseOnHover: true,
 			cssEase: 'linear',
 			lazyLoad: 'ondemand'
 		});
+		$('#cheese').slick({
+			autoplay: true,
+			autoplaySpeed: 5000,
+			arrows: false,
+			dots: false,
+			infinite: true,
+			speed: 1000,
+			fade: true,
+			pauseOnHover: true,
+			cssEase: 'linear',
+			lazyLoad: 'ondemand'
+		});
+
 	});
 
 

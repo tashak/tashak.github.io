@@ -2,6 +2,15 @@
 	margin-top: 1.5em !important;
 }
 
+.bookclub {
+	color: #D9DD30;
+	font-size: 1.2em;
+}
+
+
+.excerptlinkheader {
+	margin-bottom: 0;
+}
 
 body {
 	margin: 0;
@@ -11,6 +20,14 @@ body {
 	font-size: 2em;
 	text-transform: uppercase;
 }
+
+.booktitlemajor h2 {
+	font-size: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 0;
+}
+
 
 h1.titletext {
 	text-transform: uppercase;
@@ -95,10 +112,9 @@ nav {
 		max-width: 100%;
 	}
 
-	.excerpt {
-		padding: 1em;
-		text-align: justify;
-		margin: 0 1em 2em 0;
+	.excerpt h2 {
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 
 	.resellers.row {
@@ -168,5 +184,38 @@ nav {
 .excerpt-link a {
 	color: #49bf9d !important;
 }
+
+.accolades a {
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	color: #49bf9d !important;
+	font-size: 2em;
+	text-decoration: none;
+}	
+
+	.accolades p {
+		color:  #49bf9d !important;
+		margin: 0 0 1em 0;
+		line-height: 1.75em;
+	}
+
+	.accolades a {
+		color:  #49bf9d !important;
+		text-decoration: none;
+		border: none;
+	}
+
+	.accolades {
+		line-height: 1.5em;
+		font-family: 'Verlag-Light';
+		text-align: center;
+		max-width: 100%;
+		margin-bottom: 2em;
+	}
+
+
+
 
 
